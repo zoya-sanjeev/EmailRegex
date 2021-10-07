@@ -1,6 +1,6 @@
 console.log("Welcome to email validation");
 
-let emailRegex = RegExp("^abc@bridgelabz$");
+let emailRegex = RegExp("^abc@bridgelabz.co$");
 
 function validateEmail(email){
     if(emailRegex.test(email))
@@ -10,7 +10,7 @@ function validateEmail(email){
 }
 
 try{
-    validateEmail("abc@bridgelabz");
+    validateEmail("abc@bridgelabz.co");
     validateEmail("qwer");
 }catch(e){
     console.error(e);
